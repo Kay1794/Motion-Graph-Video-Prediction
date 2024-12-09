@@ -1,4 +1,5 @@
 #!/usr/bin/env python
+# Code is modified from https://github.com/sniklaus/softmax-splatting
 
 import collections
 import cupy
