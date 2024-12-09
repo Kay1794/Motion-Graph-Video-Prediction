@@ -1,0 +1,7 @@
+Validation on : ./pretrained_model/ucf_mmvp_split.pth
+Validation on : ./pretrained_model/ucf_mmvp_split.pth
+Validation epoch -1_Epoch -1 	val recon loss 0.001997	val Total loss 0.001997	val psnr 30.456447	val ssim 0.930658	val lpips 0.084394	takes 66.41208386421204 s
+Validation on : ./pretrained_model/ucf_mmvp_split.pth
+Validation on : ./pretrained_model/ucf_mmvp_split.pth
+Validation epoch -1_Epoch -1 	val recon loss 0.001980	val Total loss 0.001980	val psnr 30.501087	val ssim 0.931204	val lpips 0.083507	takes 68.87389039993286 s
+Validation on : ./pretrained_model/ucf_mmvp_split.pth
