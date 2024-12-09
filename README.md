@@ -1,5 +1,11 @@
-## This is the official repo for NeurIPS 2024 paper - Motion Graph Unleashed: A Novel Approach to Video Prediction [paper](https://arxiv.org/pdf/2410.22288)
+## This is the official repo for NeurIPS 2024 paper - Motion Graph Unleashed: A Novel Approach to Video Prediction [\[paper\]](https://arxiv.org/pdf/2410.22288)
 
+# TODO
+- [x] code base
+- [x] Data preparation
+- [ ] UCF Sports STRPM Dataloader 
+- [ ] Download link to all testing results images
+  
 # Prepare
 ```bash
 git clone https://github.com/Kay1794/Motion-Graph-Video-Prediction.git
@@ -14,8 +20,8 @@ UCF Sports Dataset
   - Modify ucf_config\['dataroot'\] in config.py to the unziped folder
   - Copy split txt files to ucf_config\['dataroot'\]
 + [STRPM split](./dataset/ucf_strpm_split)
-  - ⬜️Dataloader
-  - ⬜️Implement steps
+  - [ ] Dataloader
+  - [ ] Implement steps
 
 KITTI & Cityscapse
 + We follow the data preparation steps of [CVPR2023 DMVFN](https://github.com/hzwer/CVPR2023-DMVFN)
