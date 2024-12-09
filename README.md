@@ -1,4 +1,4 @@
-## This is the official repo for NeurIPS 2024 paper - Motion Graph Unleashed: A Novel Approach to Video Prediction [\[paper\]](https://arxiv.org/pdf/2410.22288)
+## This is the official repo for NeurIPS 2024 paper - Motion Graph Unleashed: A Novel Approach to Video Prediction [\[paper\]](https://arxiv.org/pdf/2410.22288)[\[poster\]](./poster.png)
 
 # TODO
 - [x] code base
