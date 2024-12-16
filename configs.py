@@ -3,8 +3,6 @@ import numpy as np
 '''
 Dataset root
 '''
-lambda_14 = False
-lambda_11 = False
 
 ucf_config = {}
 ucf_config['name'] = 'ucf'
