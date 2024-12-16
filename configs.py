@@ -30,7 +30,7 @@ strpm_ucf_config['dataroot'] = '/data/strpm_ucf/'
 
 kitti_config = {}
 kitti_config['name'] = 'kitti'
-kitti_config['dataroot'] = '/data/kitti_2to1' # '/home/yiqizhong/project/video_prediction/dataset/KITTI_2to1/'
+kitti_config['dataroot'] = '/data/kitti_2to1' 
 
 kitti_config['in_res'] = (256,832)
 kitti_config['prev_len'] = 2
