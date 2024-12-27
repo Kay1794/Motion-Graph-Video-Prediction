@@ -33,5 +33,5 @@ python main.py --mode train --scale_in_use 4 --base_channel 16 --downsample_scal
 ```
 Validation on UCF Sports MMVP Split
 ```bash
-python main.py --mode train  --scale_in_use 4 --base_channel 16  --downsample_scale 2 2 2 --exp baseline --cos_restart --rot_aug --flip_aug --loss_list recon --edge_normalize --pred_att_iter_num 3 --tendency_len 16 --edge_list backward forward spatial  --t_period 300 --nepoch 300 --eval_list psnr ssim lpips --logpath /mnt/team/t-yiqizhong/projects/video_prediction/results/ --shuffle_scale 2 --pos_len 4 --loss_list recon --top_k 0.01 --batch 16 --dataset ucf_4to1 --resume ./pretrained_model/ucf_mmvp_split.pth --mode val
+python main.py --mode train  --scale_in_use 4 --base_channel 16  --downsample_scale 2 2 2 --exp baseline --cos_restart --rot_aug --flip_aug --loss_list recon --edge_normalize --pred_att_iter_num 3 --tendency_len 16 --edge_list backward forward spatial  --t_period 300 --nepoch 300 --eval_list psnr ssim lpips --shuffle_scale 2 --pos_len 4 --loss_list recon --top_k 0.01 --batch 16 --dataset ucf_4to1 --resume ./pretrained_model/ucf_mmvp_split.pth --mode val
 ```
