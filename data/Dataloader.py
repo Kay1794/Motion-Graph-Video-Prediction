@@ -55,7 +55,6 @@ class UCFPredDataset(Dataset):
             im = cv2.imread(os.path.join(self.data_root,cur_filename))
             h, w, c = im.shape
             side_len = min(w, h)
-            crop_img = self.CenterCrop(im, side_len, side_len)
             final_img = cv2.resize(im, self.config['in_res']).copy()
             if depth:
                 final_img = final_img / 255. * self.depth_scale[cur_filename]
